@@ -7,6 +7,11 @@
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+    <link href="libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
+    <script src="libs/vis-4.16.1/vis.min.js"></script>
+    <link href="libs/timeline-0.4/timevis.css" rel="stylesheet" />
+    <script src="libs/timevis-binding-0.5/timevis.js"></script>
   </head>
   <body>
     <textarea id="source">
@@ -15,7 +20,7 @@ class: center, middle, inverse, title-slide
 # Comprendre et mettre en oeuvre l’open data
 ## Formation AAF
 ### Samuel Goëta, Datactivist
-### Aix en Provence, 2019-04-29
+### Aix en Provence, 2019-04-30
 
 ---
 
@@ -128,6 +133,185 @@ Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la 
 ---
 class: inverse, center, middle
 
+# Origines et principes de l'open data
+
+---
+## [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la transparence
+
+Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
+
+.reduite[
+![](./img/ddhc.png)
+]
+---
+## [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la libre circulation de l’information
+
+Dans la lignée de la cybernétique et du logiciel libre, la circulation des données comme valeur essentielle
+
+.reduite.center[![](https://farm7.static.flickr.com/6197/6073305958_19c2bbef40_o.jpg)]
+
+---
+
+###  [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la demande de données brutes
+
+Dans la lignée des premières initatives de partage de données scientifiques en génétique ou en astronomie, obtenir les données sous leur forme pré-interprétative pour refaire les calculs
+
+.reduite.center[![](http://images.wisegeek.com/physical-data.jpg)]
+
+---
+
+### [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : l'industrie de la donnée
+Le nouveau pétrole et les promesses démesurées de croissance
+
+.reduite.center[![](https://images.pexels.com/photos/70362/oil-monahans-texas-sunset-70362.jpeg?cs=srgb&amp;dl=dawn-drill-evening-70362.jpg&amp;fm=jpg)]
+
+---
+
+### [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la modernisation des administrations
+
+Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en oeuvre des politiques publiques
+
+.reduite.center[![](http://www.participation-et-democratie.fr/sites/default/files/democratie_ouverte_0.png)]
+
+---
+## Open data : un terme récent
+
+Le terme est apparu pour la première fois dans les années 1970 dans les accords qu’a signés la NASA avec des pays partenaires en vue du partage de données satellitaires. 
+
+C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un rapport de la National Academy of Science intitutlé "_On the Full and Open Exchange of Scientific Data_".
+
+Dans le langage courant, cela fait près de 10 ans que l'ouverture des données est devenue un élément majeur des politiques publiques numériques. 
+
+** Explorons maintenant quelques grandes dates de l'apparition de l'open data.**
+
+---
+## 2005 : [Open Definition](https://opendefinition.org/)
+
+### Une définition juridique des droits de l'usager d'un savoir ouvert
+.reduite.center[![](img/opendef.png)]
+
+
+---
+## 2007 : [la rencontre de Sebastopol ](https://opengovdata.org/)
+
+.pull-left[
+**Quoi ?** Une rencontre de l'Open Governement Group à Sebastopol (Californie), siège des éditions O'Reilly
+
+**Pourquoi ?** : Influencer le futur président des Etats Unis pour faire avancer l'open data
+
+**Comment ?** En adoptant une déclaration définissant les grands principes de l'Open Government Data 
+
+]
+
+.pull-right[
+![](https://datactivist.coop/dataliteracy/img/photofamille.jpg)
+]
+---
+class:middle, center
+![](https://datactivist.coop/dataliteracy/img/session.jpg)
+# Revue des principes
+
+---
+class: middle, center
+
+# 1. Des données complètes
+### Toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité
+---
+class: center, middle
+![](https://datactivist.coop/dataliteracy/img/OPENDATA.jpg)
+# BY DEFAULT
+---
+class: middle, center
+
+# 2. Des données primaires
+###  Les données ouvertes sont telles que collectées à la source, non-agrégées avec le plus haut niveau de granularité
+
+---
+class: middle, center
+
+# 3. Des données fraiches (*timely*)
+### Les données doivent être disponibles dès qu'elles sont produites
+
+---
+class: middle, center
+
+# 4. Des données accessibles 
+### Les données doivent être utilisables par le plus grand nombre d’usagers potentiels
+
+---
+class: middle, center
+
+# 5. Des données exploitables par les machines 
+###  Les données peuvent être traitées automatiquement par les machines
+
+---
+class: middle, center
+
+# 6.Des données non discriminatoires 
+### Elles peuvent être utilisées par tous sans réclamer un enregistrement préalable
+---
+class: middle, center
+
+# 7. Des données dans un format ouvert
+### Ce format ne doit pas être la propriété d'une organisation en particulier (.xls) et doit être gouvernée par ses usagers
+
+---
+class: middle, center
+
+# 8. Des données dans une licence ouverte
+### Idéalement dans le domaine public sinon dans une licence conforme à l'[Open Definition](www.opendefinition.org) : Licence Ouverte (CC-BY) ou ODBL (CC-BY-SA)
+
+---
+## 2008 : Tim Berners-Lee ["Raw data now"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
+#### La demande de données brutes sous les projecteurs
+
+.reduite.center[
+![](img/ted.png)
+]
+---
+## 2010 : [le modèle en 5 étoiles de Tim Berners-Lee](https://5stardata.info/fr/)
+
+.reduite.center[![](./img/5star.png)]
+
+---
+## Des principes techniques sans portée politique
+&gt;"Il peut être vrai en un sens qu'un régime devient plus ouvert chaque fois qu'il fournit des données ouvertes supplémentaires, même pour les sujets banals et apolitiques, mais il est facile d'imaginer qu'un régime fermé pourrait divulguer de grandes quantités de données conformes à ces huit exigences [de Sébastopol] **sans pour autant accroître sa responsabilité réelle en tant que gouvernement **. 
+
+&gt; Une diffusion électronique des déclarations de propagande faites par les dirigeants politiques de la Corée du Nord, par exemple, pourrait satisfaire à ces huit exigences et ne pas promouvoir une transparence ou une responsabilité supplémentaires de la part d'un régime notoirement fermé et opaque."
+
+&gt;Yu &amp; Robinson (2012) « [The New Ambiguity of Open Government](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489) » 
+
+---
+## 2011 : [la déclaration pour un gouvernement ouvert](https://www.opengovpartnership.org/d-claration-commune-pour-un-gouvernement-ouvert)
+
+.reduite.center[![](img/declaration.png)]
+
+---
+## [Le fonctionnement du PGO](http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf)
+
+.center.reduite[![](img/opengov.png)]
+
+---
+## Depuis 2010 : l'ère des classements
+[![](img/odb.png)](https://opendatabarometer.org/)
+
+---
+## Depuis 2010 : l'ère des classements
+[![](img/godi.png)](https://index.okfn.org/place/)
+
+---
+## 2013 : la [charte du G8 sur l'open data](https://www.modernisation.gouv.fr/sites/default/files/fichiers-attaches/charte-g8-ouverture-donnees-publiques-fr.pdf)
+
+![](img/g8.jpg)
+---
+## 2015 : la [charte internationale de l'open data]()
+.reduite.center[
+![](img/odcharter.png)
+]
+
+---
+class: inverse, center, middle
+
 # Elements du cadre juridique de l'open data
 
 ---
@@ -200,7 +384,7 @@ d'.red[**occulter les mentions protégées**]. L’administration n’est pas te
 
 La prohibition de la communication à des tiers ne porte pas sur les données personnelles en général, mais .red[**sur les données à caractère personnel relevant de la vie privée**] des personnes concernées (âge, coordonnées personnelles, situation patrimoniale et financière, sympathies politiques, les croyances religieuses…)
 
-La mise en ligne de données à caractère personnel sans anonymisation n'est permise que dans trois cas :
+La mise en ligne de données à caractère personnel sans anonymisation n'est permise que dans .red[**trois cas**] :
 1. une disposition législative contraire le prévoit (exemple : [Transparence Santé](https://www.data.gouv.fr/fr/datasets/transparence-sante-1/))
 2. si les personnes intéressées ont donné leur accord (consentement au sens de l’article 4 du RGPD)
 3. les documents relevant de [l’article D312-3-1 du CRPA](https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=51E99AF738C12521572D6A7F6C8C03E8.tplgfr23s_1?cidTexte=JORFTEXT000037797147&amp;dateTexte=&amp;oldAction=rechJO&amp;categorieLien=id&amp;idJO=JORFCONT000037796937)
@@ -208,53 +392,240 @@ La mise en ligne de données à caractère personnel sans anonymisation n'est pe
 
 Hors de ces cas, il faut .red[**anonymiser les données**] : elles ne doivent plus se référer à une personne réelle (exit les noms, identifiants…) et ne doivent plus être spécifiques à un individu mais communes à un ensemble de personnes. L’indexation de ces données par un moteur de recherche externe est proscrite.
 
----
-## Du droit d'accès au droit de réutilisation
-
-![](./img/frise.png)
----
-
-## 2005: the Open Definition
-### Define the rights of users of open knowledge
-.reduite[![](img/opendef.png)]
----
-## 2007: Sebastopol meeting
-###Open all public data as soon as produced
-.reduite[![](img/sebastopol.png)]
----
-## 2008: "Raw data now"
-###Get all the raw data
-![](img/ted.png)
----
-## 2010: the 5-star model
-### Get machine-readable data
-.reduite[![](img/5star.png)]
----
-# Technical principles without political depth
-&gt;"It may be true in some sense that a regime becomes more open whenever it provides additional open data, even for mun- dane and apolitical topics, but **it is easy to imagine that a closed regime might disclose large amounts of data conforming to these eight requirements without in any way advancing its actual accountability as a government**. 
-
-&gt; […] An electronic release of the propaganda statements made by North Korea’s political leadership, for example, might satisfy all eight of these requirements and might not tend to promote any additional transparency or accountability on the part of the notoriously closed and unaccountable regime."
-
-&gt;Yu &amp; Robinson (2012) « The New Ambiguity of Open Government » 
 
 ---
-# 2011: Open Government Declaration
-![](img/declaration.png)
+### Du droit d'accès au droit de réutilisation
+
+Alors qu'aux Etats-Unis les données publiques sont placées dans le domaine public depuis les années 70, la question de la réutilisation des données publiques a émergé en France et en Europe dans les années 1990 avec le développement d'Internet facilitant la diffusion des données publiques et le développement de nouveaux services au public. Quelques jalons :
+
+<div id="htmlwidget-207a1197c656084db9b4" class="timevis html-widget" style="width:715px;height:350px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-207a1197c656084db9b4">{"x":{"items":[{"id":"1","content":"Loi CADA","start":"1978-07-17"},{"id":"2","content":"Directive PSI","start":"2003-11-17"},{"id":"3","content":"Directive INSPIRE","start":"2007-03-14"},{"id":"4","content":"Révision de la directive PSI","start":"2013-06-13"},{"id":"5","content":"Loi Notre","start":"2015-08-07"},{"id":"6","content":"Loi Valter","start":"2015-12-28"},{"id":"7","content":"Loi pour une République Numérique","start":"2016-10-07"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":"350px","api":[]},"evals":[],"jsHooks":[]}</script>
+
 ---
-#Open Government: how it works? 
-![](img/process.png)
+
+### Loi pour une République Numérique : l'ouverture des données par défaut
+
+&lt;img style="float: right;margin:10px" src="./img/repnum.jpg"&gt;
+Promulguée le 7 octobre 2016, après 4 ans d'annonces et de consultation, le titre 1 de la [loi pour une République  Numérique](https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=B5632993E54F7CCC2606664B64CDF612.tpdila11v_1?cidTexte=JORFTEXT000033202746&amp;categorieLien=id) porte sur l'ouverture des données publiques. 
+
+La loi impose un principe d'.red[**ouverture des données par principe**] qui ne fait pas l'objet de sanctions à toutes les administrations, les entreprises délégataires d'une mission de service public et les .red[**collectivités locales de plus de 3500 habitants et 50 agents**]. 
+
+L'ouverture concerne un .red[**périmètre très large**] : 
+* les documents communiqués suite à des demandes CADA
+* les "bases de données"
+* les données "dont la publication présente un intérêt économique, social, sanitaire ou environnemental".
+Rares sont donc les données publiques qui ne sont donc pas concernées par cette obligation d'ouverture. 
+
 ---
-# Since 2010: the era of rankings
-![](img/odb.png)
+
+### La définition des données
+
+Le guide CADA-CNIL rappelle la **définition des "bases de données"**
+
+&gt; On entend par base de données un recueil d'œuvres, de données ou d'autres éléments indépendants, disposés de manière systématique ou méthodique, et individuellement accessibles par des moyens électroniques ou par tout autre moyen (art L112-3 du code de la propriété intellectuelle)
+
+&gt; En, d’autres termes il s’agit d’un ensemble de données organisé en vue de son utilisation par des programmes correspondant à des applications distinctes et de manière à faciliter l'évolution indépendante des données et des programmes (en anglais : data base)
+
+Le document donne également une **définition de ce qu'est une "donnée"** :
+
+&gt; Une donnée correspond à la représentation d'une information sous une forme conventionnelle destinée à faciliter son traitement (en anglais : data).
+
 ---
-#Since 2010: the era of rankings
-![](img/godi.png)
+### Loi pour une République numérique : l'utilisation de standards ouverts
+&lt;img style="float:right; margin:10px"  src="./img/openstand.png"&gt;
+
+Afin de faciliter la réutilisation des données par les machines, la loi pour une République Numérique consacre **l'utilisation de standards ouverts** pour la communication des documents administratifs. 
+
+L’administration est dorénavant tenue, lorsqu’elle communique un document administratif au format électronique, de le mettre à disposition du citoyen **"dans un standard ouvert, aisément réutilisable et exploitable par un système de traitement automatisé"**. 
+
+Concrètement, cela devrait empêcher la publication de fichiers PDF là où un fichier CSV pourrait être diffusé.
+
 ---
-#2013: the G8 Open Data Charter
-![](img/g8.jpg)
+### Loi pour une République numérique : une limitation des licences
+
+La loi **limite par décret les licences** qui peuvent être utilisées par les administrations. Le [décret du 27 avril 2017](https://www.legifrance.gouv.fr/eli/decret/2017/4/27/2017-638/jo/texte) autorise deux licences : 
+
+* la Licence Ouverte d'Etalab 
+
+* la licence ODBL (OpenDataBaseLicense).
+
+Ces deux licences offrent **un choix aux administrations** : la licence ouverte étant plus permissive que la licence ODBL qui a été conçue dans une logique de "pot commun" permettant de garantir que les données resteront ouvertes après leur réutilisation.
+
+Utiliser une autre licence impose une **homologation** auprès de la DINSIC avec un exposé des motifs ayant conduit à sortir de la liste fixée dans le décret et une consultation des usagers affectés par la licence proposée. L'homologation doit être faite pour chaque jeu de données même si la licence reste la même.
+
 ---
-#2015: the International Open Data Charter
-![](img/charter.png)
+### Loi pour une République numérique : une limitation des licences
+
+.reduite.center[
+[![](./img/licences.png)](http://www.opendatalab.fr/index.php/laboratoire/le-kit-collectivites)
+]
+.footnote[source : [SGAR Occitanie](http://www.opendatalab.fr/index.php/laboratoire/le-kit-collectivites)]
+---
+class: inverse, center, middle
+
+# Où en est l'open data ?
+
+---
+## Des politiques d'open data "de l'offre"
+
+.pull-left[
+### En théorie
+
+#### Toutes les données sont ouvertes sous leur forme brute dès leur production
+
+]
+.pull-right[
+
+
+### En pratique
+
+#### L’administration choisit quelles données ouvrir, comment les ouvrir, quand et ce qu’elles contiennent
+
+]
+
+---
+## La réutilisation : un parcours fait de frictions et de déceptions
+.pull-left[
+[![](img/users.png)](https://thereboot.github.io/moti-personas/)
+]
+.pull-right[
+####  Des données difficiles à trouver, pas ouvertes partout
+
+####  Granularité temporelle et spatiale souvent trop faible
+
+####  Des données souvent inutilisables : manque de documentation
+
+####  Des données pas mises à jour
+
+####  Des portails qui ciblent les développeurs
+
+]
+
+---
+## Le problème de la qualité des données
+
+&gt; **Les données des gouvernements sont souvent incomplètes, pas actualisées, de mauvaise qualité et fragmentaires.** 
+
+&gt; Dans la plupart des cas, les catalogues ou portails de données ouvertes sont alimentés manuellement, conséquence d’une approche informelle de la gestion des données. 
+
+&gt; De plus, les procédures, les calendriers et les responsabilités des institutions publiques chargées de leur gestion manquent souvent de clarté. Ainsi, de manière générale, la gestion et la publication des données ouvertes sont fragiles et sujettes à des erreurs multiples.
+
+.footnote[Source : 
+[Rapport mondial du 4e Open Data Barometer](https://opendatabarometer.org/4thedition/report/?lang=fr)
+]
+---
+## Des données bien cachées
+.pull-left[
+![](https://index.okfn.org/images/Datagapsclean.jpg)
+]
+.pull-right[
+"La découvrabilité des données est un défi majeur. Nous avons des portails et des registres de données, mais les organismes gouvernementaux qui relèvent d'un seul gouvernement national publient toujours les données de différentes façons et à différents endroits(...)
+
+**La découvrabilité des données est une condition préalable pour que les données ouvertes réalisent leur potentiel et, actuellement, la plupart des données sont très difficiles à trouver**."]
+
+
+.footnote[https://index.okfn.org/insights/]
+
+---
+### Un exemple de données introuvables
+
+Ce fichier contient tous les signes officiels de la qualité et de l'origine (SIQO) : les AOC et AOP, IGP, Label rouge, spécialité traditionnelle garantie, Agriculture biologique… Très utile mais qui peut le trouver sur data.gouv.fr ?
+[![](./img/siqo.png)](https://www.data.gouv.fr/fr/datasets/siqo-publies/)
+
+---
+### Un autre exemple de données vraiment introuvables 
+
+Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat. Mais, malgré mon [signalement](https://www.data.gouv.fr/fr/datasets/aife-de-44785462100045/#discussion-5c5d2857634f41019657c80d-0), tout est fait pour le rendre introuvable !
+
+[![](./img/wtfopendata.png)](https://www.data.gouv.fr/fr/datasets/aife-de-33592022900036-23/)
+---
+
+## Le développement de l'open data en France
+
+.reduite.center[![](./img/obsod.png)](http://slides.com/loichay/resultats-odt-oct18#/)
+
+---
+
+## Le développement de l'open data en France
+
+.reduite.center[
+[![](./img/carto_obs.png)](https://umap.openstreetmap.fr/fr/map/observatoire-open-data-des-territoires_239529#6/45.806/5.603)
+]
+
+---
+
+## Une multitude de portails territoriaux
+
+[![](./img/portailslocaux.gif)](https://airtable.com/shrmZOh5If14Q1PVN/tblwklJPsyayeH5lX?blocks=hide)
+
+---
+## Une multitude de portails nationaux
+
+[![](./img/portailsnat.gif)](https://airtable.com/shr3IYfHZW1cVTS3s/tblVtTOudK5Ygpsmj?blocks=hide)
+
+
+---
+## Exemple de données ouvertes : la [base SIRENE](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)
+
+.reduite.center[![](img/sirene.png)]
+---
+##La base SIRENE : exemple de cas d'utilisation
+
+.reduite[.center[![](img/ruesoif.png)]]
+---
+##Exemple de données ouvertes : la [base adresse nationale](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/)
+.reduite[.center[![](img/ban.png)]]
+
+---
+##Exemple de données ouvertes : les [accidents de la route](https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/)
+.reduite.center[![](img/accidents.png)]
+---
+##Les accidents de la route
+.reduite.center[![](img/trajetleplussur.png)]
+.footnote[Plus d'accidents sur l'A8 mais surtout plus de véhicules…]
+---
+## Les accidents de la route
+.reduite.center[![](img/marsactu.png)]
+.footnote[[Carte par Joël Gombin dans Marsactu](https://joelgombin.github.io/marsactu_accidents/chronique.html)]
+---
+## Exemple de données ouvertes : les [inspections des restaurants](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)
+.reduite.center[![](img/aliminfos.png)]
+.footnote[[Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)]
+---
+##Les inspections des restaurants
+.reduite[.center[![](img/resto.png)]]
+.footnote[[155 établissements dont l'hygiène doit être corrigée de manière urgente ](https://dgal.opendatasoft.com/explore/dataset/export_alimconfiance/table/?disjunctive.filtre&amp;disjunctive.app_libelle_activite_etablissement&amp;disjunctive.ods_type_activite&amp;refine.synthese_eval_sanit=A+corriger+de+mani%C3%A8re+urgente)]
+---
+## Exemple de données ouvertes : le [répertoire national des élus](https://www.data.gouv.fr/fr/datasets/donnees-du-repertoire-national-des-elus/)
+
+.reduite.center[
+![](./img/repelus.png)
+]
+
+---
+## Le répertoire national des élus
+
+.reduite[![](./img/repelusreuse.png)](https://mlaunois.github.io/rapport-les-elus-nationaux/rapport-rne.html#nos-maires)
+
+---
+## Exemple de données ouvertes : les [valeurs foncières](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/#_)
+
+![](./img/dvf.png)
+---
+## Les valeurs foncières
+
+.reduite.center[
+[![](./img/meilleursagents.png)](https://www.meilleursagents.com/prix-immobilier/dvf/aix-en-provence-13100/avenue-saint-jerome-1108044769/)
+]
+
+---
+
+
 ---
 class: inverse, center, middle
 
