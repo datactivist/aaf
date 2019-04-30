@@ -1,8 +1,8 @@
 ---
-title: "Comprendre et mettre en oeuvre l'open data"
+title: "Comprendre et mettre en œuvre l'open data"
 subtitle: "Formation AAF"
 author: "Samuel Goëta, Datactivist"
-date: "Aix en Provence, `r Sys.Date()`"
+date: "Aix en Provence, `r format(Sys.Date(), '%d %b %Y')`"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -12,7 +12,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 params:
-  event: Formation "comprendre et mettre en oeuvre l'open data"
+  event: Formation "comprendre et mettre en œuvre l'open data"
   slug: aaf
 ---
 
@@ -127,7 +127,7 @@ class: inverse, center, middle
 # Origines et principes de l'open data
 
 ---
-### [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la transparence
+### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
 
 Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
 
@@ -135,7 +135,7 @@ Aller au-delà du droit d'accès et de la réédition des comptes (_accountabili
 ![](./img/ddhc.png)
 ]
 ---
-### [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la libre circulation de l’information
+### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la libre circulation de l’information
 
 Dans la lignée de la cybernétique et du logiciel libre, la circulation des données comme valeur essentielle
 
@@ -143,7 +143,7 @@ Dans la lignée de la cybernétique et du logiciel libre, la circulation des don
 
 ---
 
-###  [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la demande de données brutes
+###  [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la demande de données brutes
 
 Dans la lignée des premières initatives de partage de données scientifiques en génétique ou en astronomie, obtenir les données sous leur forme pré-interprétative pour refaire les calculs
 
@@ -151,18 +151,18 @@ Dans la lignée des premières initatives de partage de données scientifiques e
 
 ---
 
-### [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : l'industrie de la donnée
+### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) l'industrie de la donnée
 Le nouveau pétrole et les promesses démesurées de croissance
 
-.reduite.center[![](https://images.pexels.com/photos/70362/oil-monahans-texas-sunset-70362.jpeg?cs=srgb&dl=dawn-drill-evening-70362.jpg&fm=jpg)]
+.reduite[.center[![](https://images.pexels.com/photos/70362/oil-monahans-texas-sunset-70362.jpeg?cs=srgb&dl=dawn-drill-evening-70362.jpg&fm=jpg)]]
 
 ---
 
-### [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la modernisation des administrations
+### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la modernisation des administrations
 
-Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en oeuvre des politiques publiques
+Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en œuvre des politiques publiques
 
-.reduite.center[![](http://www.participation-et-democratie.fr/sites/default/files/democratie_ouverte_0.png)]
+.reduite[.center[![](http://www.participation-et-democratie.fr/sites/default/files/democratie_ouverte_0.png)]]
 
 ---
 ### Open data : un terme récent
@@ -178,8 +178,8 @@ Dans le langage courant, cela fait près de 10 ans que l'ouverture des données 
 ---
 ### 2005 : [Open Definition](https://opendefinition.org/)
 
-### Une définition juridique des droits de l'usager d'un savoir ouvert
-.reduite.center[![](img/opendef.png)]
+#### Une définition juridique des droits de l'usager d'un savoir ouvert
+.reduite[.center[![](img/opendef.png)]]
 
 
 ---
@@ -238,13 +238,13 @@ class: middle, center
 ---
 class: middle, center
 
-# 6.Des données non discriminatoires 
+# 6. Des données non discriminatoires 
 ### Elles peuvent être utilisées par tous sans réclamer un enregistrement préalable
 ---
 class: middle, center
 
 # 7. Des données dans un format ouvert
-### Ce format ne doit pas être la propriété d'une organisation en particulier (.xls) et doit être gouvernée par ses usagers
+### Ce format ne doit pas être la propriété d'une organisation en particulier (.xls) et doit être gouverné par ses usagers
 
 ---
 class: middle, center
@@ -256,13 +256,13 @@ class: middle, center
 ### 2008 : Tim Berners-Lee ["Raw data now"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
 #### La demande de données brutes sous les projecteurs
 
-.reduite.center[
+.reduite[.center[
 ![](img/ted.png)
-]
+]]
 ---
 ### 2010 : [le modèle en 5 étoiles de Tim Berners-Lee](https://5stardata.info/fr/)
 
-.reduite.center[![](./img/5star.png)]
+.reduite[.center[![](./img/5star.png)]]
 
 ---
 ## Des principes techniques sans portée politique
@@ -275,12 +275,12 @@ class: middle, center
 ---
 ### 2011 : [la déclaration pour un gouvernement ouvert](https://www.opengovpartnership.org/d-claration-commune-pour-un-gouvernement-ouvert)
 
-.reduite.center[![](img/declaration.png)]
+.reduite.[center[![](img/declaration.png)]]
 
 ---
 ### [Le fonctionnement du PGO](http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf)
 
-.center.reduite[![](img/opengov.png)]
+.center[.reduite[![](img/opengov.png)]]
 
 ---
 ### Depuis 2010 : l'ère des classements
@@ -296,23 +296,23 @@ class: middle, center
 ![](img/g8.jpg)
 ---
 ### 2015 : la [charte internationale de l'open data]()
-.reduite.center[
+.reduite[.center[
 ![](img/odcharter.png)
-]
+]]
 
 ---
 class: inverse, center, middle
 
-# Elements du cadre juridique de l'open data
+# Éléments du cadre juridique de l'open data
 
 ---
 ### Le guide CADA-CNIL : le document de référence
 
 Je n'indique ici que quelques éléments généraux sur le cadre juridique, ce guide constitue votre source de référence. Joël Gombin, co-fondateur de Datactivist, a publié sa [fiche de lecture](https://teamopendata.org/t/guide-commun-cnil-et-cada-open-data-rgpd/1320) sur TeamOpenData.
 
-.reduite.center[
+.reduite[.center[
 [![](./img/guide.png)](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf)
-]
+]]
 
 ---
 
@@ -352,7 +352,7 @@ L'open data est comme la Tour de Pise : un très bel édifice posé sur des fond
 > Les documents administratifs peuvent revêtir de nombreuses formes (dossiers, rapports, études, comptes rendus, procès-verbaux, statistiques, directives, instructions, circulaires, codes sources, etc.) et adopter tout support (écrit, enregistrement sonore ou visuel, forme numérique ou informatique). 
 
 Le droit d'accès s'appplique aux documents administratifs produits dans le cadre d'une .red[mission de service public] ie :
-> Une mission d'intérêt général sous le contrôle de l'administration et qui est dotée à cette fin de prérogatives de puissance publique est chargée de l'exécution d'un service public." 
+> Une mission d'intérêt général sous le contrôle de l'administration et qui est dotée à cette fin de prérogatives de puissance publique est chargée de l'exécution d'un service public. 
 
 Il ne s’exerce que si l’administration a effectivement en sa possession le document demandé, que si le document est formellement **achevé**, qu'il existe et qu'il n'est pas **préparatoire à une décision administrative** en cours. 
 
@@ -360,11 +360,11 @@ Il ne s’exerce que si l’administration a effectivement en sa possession le d
 ### Les exclusions au droit d'accès
 
 Le droit d'accès .red[**ne doit pas porter atteinte aux secrets protégés**] : 
-- le fonctionnement de l'État :délibérations du Gouvernement, secret de la défense national, la conduite de la politique extérieure de la France, la sûreté de l'Etat…
+- le fonctionnement de l'État : délibérations du Gouvernement, secret de la défense nationale, la conduite de la politique extérieure de la France, la sûreté de l'État…
 - la protection de la vie privée
 - le secret médical
 - le secret des affaires (secret des procédés, des informations économiques et financières et
-des stratégies commerciales ou industrielle
+des stratégies commerciales ou industrielle)
 - les mentions portant une appréciation ou un jugement de valeur sur une personne physique ou
 faisant apparaître un comportement d'une personne pouvant lui porter préjudice…
 
@@ -412,7 +412,7 @@ L'ouverture concerne un .red[**périmètre très large**] :
 * les documents communiqués suite à des demandes CADA
 * les "bases de données"
 * les données "dont la publication présente un intérêt économique, social, sanitaire ou environnemental".
-Rares sont donc les données publiques qui ne sont donc pas concernées par cette obligation d'ouverture. 
+Rares sont donc les données publiques qui ne sont pas concernées par cette obligation d'ouverture. 
 
 ---
 
@@ -422,7 +422,7 @@ Le guide CADA-CNIL rappelle la **définition des "bases de données"**
 
 > On entend par base de données un recueil d'œuvres, de données ou d'autres éléments indépendants, disposés de manière systématique ou méthodique, et individuellement accessibles par des moyens électroniques ou par tout autre moyen (art L112-3 du code de la propriété intellectuelle)
 
-> En, d’autres termes il s’agit d’un ensemble de données organisé en vue de son utilisation par des programmes correspondant à des applications distinctes et de manière à faciliter l'évolution indépendante des données et des programmes (en anglais : data base)
+> En d’autres termes il s’agit d’un ensemble de données organisé en vue de son utilisation par des programmes correspondant à des applications distinctes et de manière à faciliter l'évolution indépendante des données et des programmes (en anglais : data base)
 
 Le document donne également une **définition de ce qu'est une "donnée"** :
 
@@ -445,7 +445,7 @@ La loi **limite par décret les licences** qui peuvent être utilisées par les 
 
 * la Licence Ouverte d'Etalab 
 
-* la licence ODBL (OpenDataBaseLicense).
+* la licence ODbL (Open Database License).
 
 Ces deux licences offrent **un choix aux administrations** : la licence ouverte étant plus permissive que la licence ODBL qui a été conçue dans une logique de "pot commun" permettant de garantir que les données resteront ouvertes après leur réutilisation.
 
@@ -517,7 +517,7 @@ class: inverse, center, middle
 ![](https://index.okfn.org/images/Datagapsclean.jpg)
 ]
 .pull-right[
-"La découvrabilité des données est un défi majeur. Nous avons des portails et des registres de données, mais les organismes gouvernementaux qui relèvent d'un seul gouvernement national publient toujours les données de différentes façons et à différents endroits(...)
+"La découvrabilité des données est un défi majeur. Nous avons des portails et des registres de données, mais les organismes gouvernementaux qui relèvent d'un seul gouvernement national publient toujours les données de différentes façons et à différents endroits (...).
 
 **La découvrabilité des données est une condition préalable pour que les données ouvertes réalisent leur potentiel et, actuellement, la plupart des données sont très difficiles à trouver**."]
 
@@ -535,7 +535,7 @@ Ce fichier contient tous les signes officiels de la qualité et de l'origine (SI
 
 Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat. Mais, malgré mon [signalement](https://www.data.gouv.fr/fr/datasets/aife-de-44785462100045/#discussion-5c5d2857634f41019657c80d-0), tout est fait pour le rendre introuvable !
 
-[![](./img/wtfopendata.png)](https://www.data.gouv.fr/fr/datasets/aife-de-33592022900036-23/)
+[.reduite[![](./img/wtfopendata.png)]](https://www.data.gouv.fr/fr/datasets/aife-de-33592022900036-23/)
 ---
 
 ### Le développement de l'open data en France
@@ -630,7 +630,7 @@ class: inverse, center, middle
 >Chaque mouvement de données à travers une interface a un coût en temps, en énergie et en attention humaine. Chaque interface entre les groupes et les organisations, ainsi qu'entre les machines, représente un point de résistance où les données peuvent être brouillées, mal interprétées ou perdues. 
 >Dans les systèmes sociaux, la friction des données consomme de l'énergie et produit de la turbulence et de la chaleur - c'est-à-dire des conflits, des désaccords et des processus indisciplinés et inexacts.
 
-Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collaboration’]((https://journals.sagepub.com/doi/abs/10.1177/0306312711413314)), _Social Studies of Science_, 41(5)
+Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collaboration’](https://journals.sagepub.com/doi/abs/10.1177/0306312711413314), _Social Studies of Science_, 41(5)
 
 ---
 ### Identifier
@@ -644,14 +644,14 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 
 * Etudier les données ouvertes par d'autres collectivités
 
-* Cartographier les données
+* Cartographier les données
 
 * Documenter les données
 
 ]
 
 ---
-### L’inventaire : un processus au long court
+### L’inventaire : un processus au long cours
 
 .pull-left[
 ![](./img/iden_etalab.png)
@@ -711,7 +711,7 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 * Des données trop “sensibles” pour être ouvertes : la transparence, un mandat à obtenir 
 
 ---
-### Editer
+### Éditer
 
 .pull-left[
 ![](./img/editer.png)
@@ -805,14 +805,14 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 ### Mettre à jour
 
 .pull-left[
-![](./img/mettre à jour.png)
+![](./img/update.png)
 ]
 
 .pull-right[
 
-* Mettre à jour manuellement ou automatiser l’ouverture
+* Mettre à jour manuellement ou automatiser l’ouverture
 
-* Conserver les données
+* Conserver les données
 
 * Prendre en compte les retours des usagers
 
