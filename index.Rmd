@@ -90,7 +90,7 @@ Il faut aujourd’hui passer à l’étape supérieure : .red[**un open data pil
 Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la communication des données à l'expression d'une demande. Leviers : demandes d'ouverture, plateformes, animations (ex : hackathon), gouvernance partagée... 
 
 ---
-## Rappel des objectifs de la formation 
+### Rappel des objectifs de la formation 
 
 > * Comprendre les grands principes de l'ouverture des données
 
@@ -105,7 +105,7 @@ Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la 
 * Rôle de l'archiviste dans un projet d'open data
 
 ---
-## Rappel du programme de la formation 
+### Rappel du programme de la formation 
 
 * Elements d'histoires d'ouverture des données
 
@@ -127,7 +127,7 @@ class: inverse, center, middle
 # Origines et principes de l'open data
 
 ---
-## [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la transparence
+### [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la transparence
 
 Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
 
@@ -135,7 +135,7 @@ Aller au-delà du droit d'accès et de la réédition des comptes (_accountabili
 ![](./img/ddhc.png)
 ]
 ---
-## [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la libre circulation de l’information
+### [.red[Les multiples facettes de l'open data]](https://books.openedition.org/cdf/5005?lang=fr) : la libre circulation de l’information
 
 Dans la lignée de la cybernétique et du logiciel libre, la circulation des données comme valeur essentielle
 
@@ -165,7 +165,7 @@ Désiloter l'administration et ouvrir l'innovation, collaborer avec la société
 .reduite.center[![](http://www.participation-et-democratie.fr/sites/default/files/democratie_ouverte_0.png)]
 
 ---
-## Open data : un terme récent
+### Open data : un terme récent
 
 Le terme est apparu pour la première fois dans les années 1970 dans les accords qu’a signés la NASA avec des pays partenaires en vue du partage de données satellitaires. 
 
@@ -176,14 +176,14 @@ Dans le langage courant, cela fait près de 10 ans que l'ouverture des données 
 ** Explorons maintenant quelques grandes dates de l'apparition de l'open data.**
 
 ---
-## 2005 : [Open Definition](https://opendefinition.org/)
+### 2005 : [Open Definition](https://opendefinition.org/)
 
 ### Une définition juridique des droits de l'usager d'un savoir ouvert
 .reduite.center[![](img/opendef.png)]
 
 
 ---
-## 2007 : [la rencontre de Sebastopol ](https://opengovdata.org/)
+### 2007 : [la rencontre de Sebastopol ](https://opengovdata.org/)
 
 .pull-left[
 **Quoi ?** Une rencontre de l'Open Governement Group à Sebastopol (Californie), siège des éditions O'Reilly
@@ -253,14 +253,14 @@ class: middle, center
 ### Idéalement dans le domaine public sinon dans une licence conforme à l'[Open Definition](www.opendefinition.org) : Licence Ouverte (CC-BY) ou ODBL (CC-BY-SA)
 
 ---
-## 2008 : Tim Berners-Lee ["Raw data now"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
+### 2008 : Tim Berners-Lee ["Raw data now"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
 #### La demande de données brutes sous les projecteurs
 
 .reduite.center[
 ![](img/ted.png)
 ]
 ---
-## 2010 : [le modèle en 5 étoiles de Tim Berners-Lee](https://5stardata.info/fr/)
+### 2010 : [le modèle en 5 étoiles de Tim Berners-Lee](https://5stardata.info/fr/)
 
 .reduite.center[![](./img/5star.png)]
 
@@ -273,29 +273,29 @@ class: middle, center
 >Yu & Robinson (2012) « [The New Ambiguity of Open Government](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489) » 
 
 ---
-## 2011 : [la déclaration pour un gouvernement ouvert](https://www.opengovpartnership.org/d-claration-commune-pour-un-gouvernement-ouvert)
+### 2011 : [la déclaration pour un gouvernement ouvert](https://www.opengovpartnership.org/d-claration-commune-pour-un-gouvernement-ouvert)
 
 .reduite.center[![](img/declaration.png)]
 
 ---
-## [Le fonctionnement du PGO](http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf)
+### [Le fonctionnement du PGO](http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf)
 
 .center.reduite[![](img/opengov.png)]
 
 ---
-## Depuis 2010 : l'ère des classements
+### Depuis 2010 : l'ère des classements
 [![](img/odb.png)](https://opendatabarometer.org/)
 
 ---
-## Depuis 2010 : l'ère des classements
+### Depuis 2010 : l'ère des classements
 [![](img/godi.png)](https://index.okfn.org/place/)
 
 ---
-## 2013 : la [charte du G8 sur l'open data](https://www.modernisation.gouv.fr/sites/default/files/fichiers-attaches/charte-g8-ouverture-donnees-publiques-fr.pdf)
+### 2013 : la [charte du G8 sur l'open data](https://www.modernisation.gouv.fr/sites/default/files/fichiers-attaches/charte-g8-ouverture-donnees-publiques-fr.pdf)
 
 ![](img/g8.jpg)
 ---
-## 2015 : la [charte internationale de l'open data]()
+### 2015 : la [charte internationale de l'open data]()
 .reduite.center[
 ![](img/odcharter.png)
 ]
@@ -316,7 +316,7 @@ Je n'indique ici que quelques éléments généraux sur le cadre juridique, ce g
 
 ---
 
-## 1978 : La loi CADA, vers le "droit de savoir"
+### 1978 : La loi CADA, vers le "droit de savoir"
 * Le fondement : la .red[Déclaration des Droits de l'Homme et du Citoyen de 1789] dans son article 15, "la Société a le droit de demander compte à tout Agent public de son administration." 
 
 * Le droit d'accès des citoyens à l'information publique émerge en **1978 avec la loi dite CADA** du nom de la Commission d'Accès aux Documents Administrations Administratifs. 
@@ -464,7 +464,7 @@ class: inverse, center, middle
 # Où en est l'open data ?
 
 ---
-## Des politiques d'open data "de l'offre"
+### Des politiques d'open data "de l'offre"
 
 .pull-left[
 ### En théorie
@@ -482,7 +482,7 @@ class: inverse, center, middle
 ]
 
 ---
-## La réutilisation : un parcours fait de frictions et de déceptions
+### La réutilisation : un parcours fait de frictions et de déceptions
 .pull-left[
 [![](img/users.png)](https://thereboot.github.io/moti-personas/)
 ]
@@ -500,7 +500,7 @@ class: inverse, center, middle
 ]
 
 ---
-## Le problème de la qualité des données
+### Le problème de la qualité des données
 
 > **Les données des gouvernements sont souvent incomplètes, pas actualisées, de mauvaise qualité et fragmentaires.** 
 
@@ -512,7 +512,7 @@ class: inverse, center, middle
 [Rapport mondial du 4e Open Data Barometer](https://opendatabarometer.org/4thedition/report/?lang=fr)
 ]
 ---
-## Des données bien cachées
+### Des données bien cachées
 .pull-left[
 ![](https://index.okfn.org/images/Datagapsclean.jpg)
 ]
@@ -538,13 +538,13 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 [![](./img/wtfopendata.png)](https://www.data.gouv.fr/fr/datasets/aife-de-33592022900036-23/)
 ---
 
-## Le développement de l'open data en France
+### Le développement de l'open data en France
 
 .reduite.center[![](./img/obsod.png)](http://slides.com/loichay/resultats-odt-oct18#/)
 
 ---
 
-## Le développement de l'open data en France
+### Le développement de l'open data en France
 
 .reduite.center[
 [![](./img/carto_obs.png)](https://umap.openstreetmap.fr/fr/map/observatoire-open-data-des-territoires_239529#6/45.806/5.603)
@@ -552,65 +552,60 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 
 ---
 
-## Une multitude de portails territoriaux
+### Une multitude de portails territoriaux
 
 [![](./img/portailslocaux.gif)](https://airtable.com/shrmZOh5If14Q1PVN/tblwklJPsyayeH5lX?blocks=hide)
 
 ---
-## Une multitude de portails nationaux
+### Une multitude de portails nationaux
 
 [![](./img/portailsnat.gif)](https://airtable.com/shr3IYfHZW1cVTS3s/tblVtTOudK5Ygpsmj?blocks=hide)
 
 
 ---
-## Exemple de données ouvertes : la [base SIRENE](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)
+### Exemple de données ouvertes : la [base SIRENE](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)
 
 .reduite.center[![](img/sirene.png)]
 ---
-##La base SIRENE : exemple de cas d'utilisation
+### La base SIRENE : exemple de cas d'utilisation
 
 .reduite[.center[![](img/ruesoif.png)]]
 ---
-##Exemple de données ouvertes : la [base adresse nationale](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/)
+### Exemple de données ouvertes : la [base adresse nationale](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/)
 .reduite[.center[![](img/ban.png)]]
 
 ---
-##Exemple de données ouvertes : les [accidents de la route](https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/)
+### Exemple de données ouvertes : les [accidents de la route](https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/)
 .reduite.center[![](img/accidents.png)]
 ---
 ##Les accidents de la route
 .reduite.center[![](img/trajetleplussur.png)]
 .footnote[Plus d'accidents sur l'A8 mais surtout plus de véhicules…]
 ---
-## Les accidents de la route
+### Les accidents de la route
 .reduite.center[![](img/marsactu.png)]
 .footnote[[Carte par Joël Gombin dans Marsactu](https://joelgombin.github.io/marsactu_accidents/chronique.html)]
 ---
-## Exemple de données ouvertes : les [inspections des restaurants](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)
+### Exemple de données ouvertes : les [inspections des restaurants](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)
 .reduite.center[![](img/aliminfos.png)]
 .footnote[[Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)]
 ---
-##Les inspections des restaurants
+### Les inspections des restaurants
 .reduite[.center[![](img/resto.png)]]
 .footnote[[155 établissements dont l'hygiène doit être corrigée de manière urgente ](https://dgal.opendatasoft.com/explore/dataset/export_alimconfiance/table/?disjunctive.filtre&disjunctive.app_libelle_activite_etablissement&disjunctive.ods_type_activite&refine.synthese_eval_sanit=A+corriger+de+mani%C3%A8re+urgente)]
 ---
-## Exemple de données ouvertes : le [répertoire national des élus](https://www.data.gouv.fr/fr/datasets/donnees-du-repertoire-national-des-elus/)
+### Exemple de données ouvertes : le [répertoire national des élus](https://www.data.gouv.fr/fr/datasets/donnees-du-repertoire-national-des-elus/)
 
 .reduite.center[
 ![](./img/repelus.png)
 ]
 
 ---
-## Le répertoire national des élus
-
-.reduite[![](./img/repelusreuse.png)](https://mlaunois.github.io/rapport-les-elus-nationaux/rapport-rne.html#nos-maires)
-
----
-## Exemple de données ouvertes : les [valeurs foncières](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/#_)
+### Exemple de données ouvertes : les [valeurs foncières](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/#_)
 
 ![](./img/dvf.png)
 ---
-## Les valeurs foncières
+### Les valeurs foncières
 
 .reduite.center[
 [![](./img/meilleursagents.png)](https://www.meilleursagents.com/prix-immobilier/dvf/aix-en-provence-13100/avenue-saint-jerome-1108044769/)
@@ -629,7 +624,7 @@ class: inverse, center, middle
 ]
 
 ---
-## La circulation des données provoque des frictions
+### La circulation des données provoque des frictions
 
 
 >Chaque mouvement de données à travers une interface a un coût en temps, en énergie et en attention humaine. Chaque interface entre les groupes et les organisations, ainsi qu'entre les machines, représente un point de résistance où les données peuvent être brouillées, mal interprétées ou perdues. 
@@ -638,7 +633,7 @@ class: inverse, center, middle
 Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collaboration’]((https://journals.sagepub.com/doi/abs/10.1177/0306312711413314)), _Social Studies of Science_, 41(5)
 
 ---
-## Identifier
+### Identifier
 
 .pull-left[
 ![](./img/identifier.png)
@@ -681,12 +676,12 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 
 ---
 
-## S'appuyer sur le recensement pour connaitre données ouvrables
+### S'appuyer sur le recensement pour connaitre données ouvrables
 
 [![](./img/recen.gif)](https://medium.com/datactivist/qui-a-ouvert-quoi-le-recensement-des-donn%C3%A9es-des-villes-est-maintenant-ouvert-b7f697135c1f)
 
 ---
-## Valider
+### Valider
 
 .pull-left[
 ![](./img/valider.png)
@@ -716,23 +711,7 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 * Des données trop “sensibles” pour être ouvertes : la transparence, un mandat à obtenir 
 
 ---
-## Extraire
-
-.pull-left[
-![](./img/extraire.png)
-]
-
-.pull-right[
-* Négocier avec les prestataires
-
-* Comprendre l’organisation physique des données
-
-* Développer des outils d’extraction
-
-]
-
----
-## Editer
+### Editer
 
 .pull-left[
 ![](./img/editer.png)
@@ -752,7 +731,7 @@ _data editing_: les opérations par lesquelles les statisticiens traitent et tra
 ]
 
 ---
-## Le sprint qualité des données de la FING
+### Le sprint qualité des données de la FING
 
 Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliquer 5 points de contrôle 
 [![](./img/sprint.png)](https://infolabs.io/sprint-qualite)
@@ -762,11 +741,11 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 
 ![](./img/dataproofer.png)
 ---
-## [WTFCSV](https://databasic.io/en/wtfcsv/) pour prévisualiser et contrôler un jeu de données
+### [WTFCSV](https://databasic.io/en/wtfcsv/) pour prévisualiser et contrôler un jeu de données
 
 ![](./img/wtfcsv.png)
 ---
-## Standardiser
+### Standardiser
 
 .pull-left[
 ![](./img/standardiser.png)
@@ -782,26 +761,26 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 ]
 
 ---
-## Passage en CSV : bien plus que “enregistrer sous”
+### Passage en CSV : bien plus que “enregistrer sous”
 
 [![](./img/excel1.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
 
 ---
-## Passage en CSV : bien plus que “enregistrer sous”
+### Passage en CSV : bien plus que “enregistrer sous”
 
 [![](./img/excel2.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
 ---
-## Passage en CSV : bien plus que “enregistrer sous”
+### Passage en CSV : bien plus que “enregistrer sous”
 
 [![](./img/excel3.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
 
 ---
-## Passage en CSV : bien plus que “enregistrer sous”
+### Passage en CSV : bien plus que “enregistrer sous”
 
 .reduite.center[![](./img/excel4.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
 
 ---
-## Publier
+### Publier
 
 .pull-left[
 ![](./img/publier.png)
@@ -816,14 +795,14 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 ]
 
 ---
-## [Datasheet for Datasets](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) : un modèle de documentation des données
+### [Datasheet for Datasets](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) : un modèle de documentation des données
 
 .reduite.center[
 ![](./img/datasheet.png)
 ]
 
 ---
-## Mettre à jour
+### Mettre à jour
 
 .pull-left[
 ![](./img/mettre à jour.png)
@@ -839,10 +818,30 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 
 ]
 ---
-## Les facteurs clés de succès
+### Les facteurs clés de succès
+
+
+- obtenir un soutien au plus haut niveau
+
+- configurer l’organisation pour l’ouverture 
+
+- faciliter la découverte et l’utilisation des données 
+
+- rester à l'écoute et interagir avec les usagers 
 
 ---
-## Les bénéfices
+### Les bénéfices de l'open data
+
+.pull-left[
+![](./img/obs.png)
+]
+.pull-right[
+En petits groupes, analysez les [données brutes](https://docs.google.com/spreadsheets/d/1pua5fDx8gtF3R9tce9wE7wmT0ksIFjscOO7DS723iHY/edit#gid=0) et syntéhtisez  : 
+* La production d’effets bénéfiques ou d’externalités positives
+* L'optimisation de la collecte et du partage des données
+* L'amélioration de la qualité des données
+* La production d'effets négatifs ou d'impacts contre-productifs
+]
 ---
 class: inverse, center, middle
 
