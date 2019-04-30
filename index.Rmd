@@ -129,7 +129,7 @@ class: inverse, center, middle
 ---
 ### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
 
-Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
+Aller au-delà du droit d'accès et de la rédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
 
 .reduite[
 ![](./img/ddhc.png)
@@ -275,7 +275,7 @@ class: middle, center
 ---
 ### 2011 : [la déclaration pour un gouvernement ouvert](https://www.opengovpartnership.org/d-claration-commune-pour-un-gouvernement-ouvert)
 
-.reduite.[center[![](img/declaration.png)]]
+.reduite[.center[![](img/declaration.png)]]
 
 ---
 ### [Le fonctionnement du PGO](http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf)
@@ -319,7 +319,7 @@ Je n'indique ici que quelques éléments généraux sur le cadre juridique, ce g
 ### 1978 : La loi CADA, vers le "droit de savoir"
 * Le fondement : la .red[Déclaration des Droits de l'Homme et du Citoyen de 1789] dans son article 15, "la Société a le droit de demander compte à tout Agent public de son administration." 
 
-* Le droit d'accès des citoyens à l'information publique émerge en **1978 avec la loi dite CADA** du nom de la Commission d'Accès aux Documents Administrations Administratifs. 
+* Le droit d'accès des citoyens à l'information publique émerge en **1978 avec la loi dite CADA** du nom de la Commission d'Accès aux Documents Administratifs. 
 
 * La France était le .red[3e pays au monde] après la Suède en 1766 et les Etats-Unis en 1966 avec le Freedom of Information Act (FOIA) en 1966  à accorder un "droit de savoir" avec pour but d'améliorer les relations entre le public et l'administration.
 
