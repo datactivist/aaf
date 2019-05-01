@@ -654,7 +654,7 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 ### L’inventaire : un processus au long cours
 
 .pull-left[
-![](./img/iden_etalab.png)
+[![](./img/iden_etalab.png)](https://www.data.gouv.fr/fr/datasets/recensement-indicatif-des-donnees-publiques-issues-des-services-publics-de-letat/)
 ]
 .pull-right[
 * L’utopie de l’inventaire exhaustif
