@@ -96,7 +96,7 @@ Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la 
 
 > * Appréhender le cadre juridique spécifique aux données publiques
 
-> * Maitriser les enjeux liés à la qualité des donnéess publiques pour faciliter la réutilisation
+> * Maitriser les enjeux liés à la qualité des données publiques pour faciliter la réutilisation
 
 > * Disposer des informations essentielles pour initier une démarche d'open data dans son institution
 
@@ -836,7 +836,7 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 ![](./img/obs.png)
 ]
 .pull-right[
-En petits groupes, analysez les [données brutes](https://docs.google.com/spreadsheets/d/1pua5fDx8gtF3R9tce9wE7wmT0ksIFjscOO7DS723iHY/edit#gid=0) et syntéhtisez  : 
+En petits groupes, analysez les [données brutes](https://docs.google.com/spreadsheets/d/1pua5fDx8gtF3R9tce9wE7wmT0ksIFjscOO7DS723iHY/edit#gid=0) et synthétisez  : 
 * La production d’effets bénéfiques ou d’externalités positives
 * L'optimisation de la collecte et du partage des données
 * L'amélioration de la qualité des données
