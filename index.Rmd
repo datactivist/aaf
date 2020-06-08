@@ -401,6 +401,20 @@ timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
 
 ---
 
+### Le droit de réutilisation en archives
+
+La .red[**réutilisation des informations publiques**] désigne l'utilisation de documents ou de données par un tiers, pour d’autres fins que celles pour lesquelles ils ont été produits ou reçus initialement.
+
+Les .red[**informations publiques**] sont tous les documents sauf ceux couverts par un délai de communicabilité et ceux sur lesquels des tiers détiennent des droits de propriété intellectuelle.
+
+Un principe : la .red[**gratuité de la réutilisation**] mais avec des exceptions, notamment lorsque la réutilisation porte sur « des informations issues des opérations de numérisation des fonds et des collections [...] des archives et, le cas échéant, sur des informations qui y sont associées lorsque ces dernières sont commercialisées conjointement ». 
+
+Les licences :
+* Si gratuité : licence facultative (à choisir dans une liste fixée par l'Etat)
+* Si redevance : licence obligatoire
+
+---
+
 ### Loi pour une République Numérique : l'ouverture des données par défaut
 
 <img style="float: right;margin:10px" src="./img/repnum.jpg">
