@@ -398,7 +398,6 @@ data <- data.frame(
 )
 timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
 ```
-
 ---
 
 ### Le droit de réutilisation en archives
