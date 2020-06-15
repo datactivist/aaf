@@ -1,8 +1,8 @@
 ---
 title: "Comprendre et mettre en œuvre l'open data"
 subtitle: "Formation AAF"
-author: "Samuel Goëta, Datactivist"
-date: "Aix en Provence, `r format(Sys.Date(), '%d %b %Y')`"
+author: "Samuel Goëta, Anne-Laure Donzel, Datactivist"
+date: "`r format(Sys.Date(), '%d %b %Y')`"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -14,8 +14,8 @@ output:
 params:
   event: Formation "comprendre et mettre en œuvre l'open data"
   slug: aaf
----
 
+---
 layout: true
   
 
@@ -96,7 +96,7 @@ Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la 
 
 > * Appréhender le cadre juridique spécifique aux données publiques
 
-> * Maitriser les enjeux liés à la qualité des donnéess publiques pour faciliter la réutilisation
+> * Maitriser les enjeux liés à la qualité des données publiques pour faciliter la réutilisation
 
 > * Disposer des informations essentielles pour initier une démarche d'open data dans son institution
 
@@ -129,7 +129,7 @@ class: inverse, center, middle
 ---
 ### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
 
-Aller au-delà du droit d'accès et de la réédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
+Aller au-delà du droit d'accès et de la rédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
 
 .reduite[
 ![](./img/ddhc.png)
@@ -275,7 +275,7 @@ class: middle, center
 ---
 ### 2011 : [la déclaration pour un gouvernement ouvert](https://www.opengovpartnership.org/d-claration-commune-pour-un-gouvernement-ouvert)
 
-.reduite.[center[![](img/declaration.png)]]
+.reduite[.center[![](img/declaration.png)]]
 
 ---
 ### [Le fonctionnement du PGO](http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf)
@@ -319,7 +319,7 @@ Je n'indique ici que quelques éléments généraux sur le cadre juridique, ce g
 ### 1978 : La loi CADA, vers le "droit de savoir"
 * Le fondement : la .red[Déclaration des Droits de l'Homme et du Citoyen de 1789] dans son article 15, "la Société a le droit de demander compte à tout Agent public de son administration." 
 
-* Le droit d'accès des citoyens à l'information publique émerge en **1978 avec la loi dite CADA** du nom de la Commission d'Accès aux Documents Administrations Administratifs. 
+* Le droit d'accès des citoyens à l'information publique émerge en **1978 avec la loi dite CADA** du nom de la Commission d'Accès aux Documents Administratifs. 
 
 * La France était le .red[3e pays au monde] après la Suède en 1766 et les Etats-Unis en 1966 avec le Freedom of Information Act (FOIA) en 1966  à accorder un "droit de savoir" avec pour but d'améliorer les relations entre le public et l'administration.
 
@@ -398,6 +398,20 @@ data <- data.frame(
 )
 timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
 ```
+---
+
+### Le droit de réutilisation en archives
+
+La .red[**réutilisation des informations publiques**] désigne l'utilisation de documents ou de données par un tiers, pour d’autres fins que celles pour lesquelles ils ont été produits ou reçus initialement.
+
+Les .red[**informations publiques**] sont tous les documents sauf ceux couverts par un délai de communicabilité et ceux sur lesquels des tiers détiennent des droits de propriété intellectuelle.
+
+Un principe : la .red[**gratuité de la réutilisation**] mais avec des exceptions, notamment lorsque la réutilisation porte sur :
+> *Des informations issues des opérations de numérisation des fonds et des collections [...] des archives et, le cas échéant, sur des informations qui y sont associées lorsque ces dernières sont commercialisées conjointement.* 
+
+Les licences :
+* Si gratuité : licence facultative (à choisir dans une liste fixée par l'Etat)
+* Si redevance : licence obligatoire
 
 ---
 
@@ -612,6 +626,17 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 ]
 
 ---
+### Exemple de données ouvertes : [Campagnes photographiques des Monuments Historiques](https://data.culture.gouv.fr/explore/dataset/photographies-serie-monuments-historiques-de-1851-a-1914/images/?refine.nom_reg=BRETAGNE&refine.nom_dept=FINISTERE&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjNjZjMmE1In1dLCJ4QXhpcyI6Im5vbV9yZWciLCJtYXhwb2ludHMiOjUwLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJwaG90b2dyYXBoaWVzLXNlcmllLW1vbnVtZW50cy1oaXN0b3JpcXVlcy1kZS0xODUxLWEtMTkxNCIsIm9wdGlvbnMiOnt9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&location=5,46.50652,2.39891)
+
+![](img/dataculture.png)
+
+---
+### Exemple de données ouvertes : [Les AD des Hauts-de-Seine](https://opendata.hauts-de-seine.fr/explore/dataset/cartes-postales/information/)
+
+Un projet mélant open data et indexation collaborative
+
+![](img/hautsdeseine.png)
+---
 class: inverse, center, middle
 
 # Le  cycle de l'ouverture des données
@@ -720,7 +745,7 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 .pull-right[
 _data editing_: les opérations par lesquelles les statisticiens traitent et transforment les données issues des sources administratives (Desrosières 2005) 
 
-* Anonymiser des données 
+* [Anonymiser](https://datascience.etalab.studio/pseudo/) des données 
 
 * Enlever la sensibilité de données qui ne pouvaient pas être publiées
 
@@ -729,12 +754,6 @@ _data editing_: les opérations par lesquelles les statisticiens traitent et tra
 * Améliorer la qualité des données
 
 ]
-
----
-### Le sprint qualité des données de la FING
-
-Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliquer 5 points de contrôle 
-[![](./img/sprint.png)](https://infolabs.io/sprint-qualite)
 
 ---
 ### [Dataproofer](http://dataproofer.org/) : un outil de contrôle automatique de la qualité
@@ -763,22 +782,48 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 ---
 ### Passage en CSV : bien plus que “enregistrer sous”
 
-[![](./img/excel1.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
+.red[**À ne pas faire n°1 :] une première ligne qui ne correspond pas à un champ précis**
+
+![](img/reglecsv1.png)
 
 ---
 ### Passage en CSV : bien plus que “enregistrer sous”
 
-[![](./img/excel2.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
+.red[**À ne pas faire n°2 :] mettre en forme les cellules**
+
+![](img/reglecsv2.png)
 ---
 ### Passage en CSV : bien plus que “enregistrer sous”
 
-[![](./img/excel3.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
+.red[**À ne pas faire n°3 :]insérer deux données de nature différente (ou deux objets) sur une même ligne**
+
+![](img/reglecsv3.png)
 
 ---
 ### Passage en CSV : bien plus que “enregistrer sous”
 
-.reduite.center[![](./img/excel4.png)](http://fr.slideshare.net/christophelibertidf/bonnes-pratiquesexcel-cc27juin2013)
+.red[**À ne pas faire n°4 :] fusionner des cellules**
 
+![](img/reglecsv4.png)
+
+---
+### Passage en CSV : bien plus que “enregistrer sous”
+
+.red[**À ne pas faire n°5 :] séparer les tableaux dans des onglets différents ou dans une même feuille**
+
+![](img/reglecsv5.png)
+---
+### Passage en CSV : bien plus que “enregistrer sous”
+
+.red[**À ne pas faire n°6 :] afficher des totaux ou des informations génériques, ou des données qui n’ont pas de lien avec ce jeu de données précis**
+
+![](img/reglecsv6.png)
+---
+### Passage en CSV : bien plus que “enregistrer sous”
+
+.red[**À faire!**] 
+
+![](img/reglecsv7.png)
 ---
 ### Publier
 
@@ -817,18 +862,39 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 * Prendre en compte les retours des usagers
 
 ]
+
 ---
-### Les facteurs clés de succès
+
+### Obtenir un soutien au plus haut niveau
+
+![](img/matricefreinmoteur.png)
 
 
-- obtenir un soutien au plus haut niveau
+---
 
-- configurer l’organisation pour l’ouverture 
+### Configurer l’organisation pour l’ouverture 
 
-- faciliter la découverte et l’utilisation des données 
 
-- rester à l'écoute et interagir avec les usagers 
+![](img/checklist.png)
 
+.right[
+.caption[
+Source : [OpenDataLab Occitanie](http://www.opendatalab.fr/laboratoire/le-kit-collectivites)
+]
+]
+---
+
+### Faciliter la découverte et l’utilisation des données
+
+["La déception en 4 actes"](https://twitter.com/JulesGrandin/status/935838409809125376)
+
+![](img/personna.png)
+
+---
+
+### Rester à l'écoute et interagir avec les usagers 
+
+![](img/10commandements.png)
 ---
 ### Les bénéfices de l'open data
 
@@ -836,7 +902,7 @@ Petit exercice : en groupe, sélectionnez un jeu de données et essayer d'appliq
 ![](./img/obs.png)
 ]
 .pull-right[
-En petits groupes, analysez les [données brutes](https://docs.google.com/spreadsheets/d/1pua5fDx8gtF3R9tce9wE7wmT0ksIFjscOO7DS723iHY/edit#gid=0) et syntéhtisez  : 
+En petits groupes, analysez les [données brutes](https://docs.google.com/spreadsheets/d/1gLSCGwmuUeV2d-gbgsgyRUSuMihRvEvzOIvU9x2Nd1g/edit?usp=sharing) et synthétisez  : 
 * La production d’effets bénéfiques ou d’externalités positives
 * L'optimisation de la collecte et du partage des données
 * L'amélioration de la qualité des données
@@ -847,4 +913,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [samuel@datactivist.coop](mailto:samuel@datactivist.coop)
+Contact : [samuel@datactivist.coop](mailto:samuel@datactivist.coop) [annelaure@datactivist.coop](mailto:annelaure@datactivist.coop)
