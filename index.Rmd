@@ -162,7 +162,7 @@ Le nouveau pétrole et les promesses démesurées de croissance
 
 Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en œuvre des politiques publiques
 
-.reduite[.center[![](http://www.participation-et-democratie.fr/sites/default/files/democratie_ouverte_0.png)]]
+.reduite[.center[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/D%C3%A9mocratie_Ouverte.png/800px-D%C3%A9mocratie_Ouverte.png]]
 
 ---
 ### Open data : un terme récent
