@@ -100,26 +100,45 @@ Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la 
 
 > * Disposer des informations essentielles pour initier une démarche d'open data dans son institution
 
-**Vos attentes spécifiques :** 
-* Problématiques liées à l'image
-* Rôle de l'archiviste dans un projet d'open data
 
 ---
 ### Rappel du programme de la formation 
 
-* Elements d'histoires d'ouverture des données
+.pull-left[
 
-* Revue des grands principes de l'open data
+** Mercredi 17 juin 9h30-12h30 **
 
-* Le droit de la réutilisation des données publiques et les obligations issues de la loi pour une République numérique
+* Éléments de l’histoire de l’ouverture des données
 
-* La conduite d'un projet d'open data et ses facteurs de succès
+* Revue des grands principes de l’open data
 
-* Les bénéfices internes et externes
+*  Le droit de la réutilisation des données publiques et les obligations issues de la loi pour une République numérique
 
-* Panorama des usages des données ouvertes
+* Panorama des données ouvertes et de leurs usages
+]
 
-* L'enjeu de la qualité des données : exercice avec le data sprint de la FING
+.pull-right[
+
+** Mercredi 24 juin 14h-17h **
+* La conduite d’un projet open data et ses facteurs de succès - La place de l’archiviste dans un projet d’open data
+
+* Les bénéfices internes et externes de l’open data
+
+* Panorama des usages des données ouvertes
+
+* L’enjeu de la qualité des données : exercice avec le sprint qualité de la FING (Fondation Internet Nouvelle Génération)
+]
+
+---
+class: middle, center
+
+### Avant de commencer
+
+## Présentons nous
+
+![](img/pdr.png)
+
+.footnote[[Public Domain Review](https://publicdomainreview.org/collection/engravings-from-a-french-ice-skating-manual-1813)]
 
 ---
 class: inverse, center, middle
@@ -127,42 +146,13 @@ class: inverse, center, middle
 # Origines et principes de l'open data
 
 ---
-### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la transparence
 
-Aller au-delà du droit d'accès et de la rédition des comptes (_accountability_) : réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
+### [.red[Les multiples facettes]](https://books.openedition.org/cdf/5005?lang=fr)  de l'open data
 
-.reduite[
-![](./img/ddhc.png)
-]
----
-### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la libre circulation de l’information
+.reduite.center[![](img/facettes.png)]
 
-Dans la lignée de la cybernétique et du logiciel libre, la circulation des données comme valeur essentielle
-
-.reduite.center[![](https://farm7.static.flickr.com/6197/6073305958_19c2bbef40_o.jpg)]
-
----
-
-###  [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la demande de données brutes
-
-Dans la lignée des premières initatives de partage de données scientifiques en génétique ou en astronomie, obtenir les données sous leur forme pré-interprétative pour refaire les calculs
-
-.reduite.center[![](http://images.wisegeek.com/physical-data.jpg)]
-
----
-
-### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) l'industrie de la donnée
-Le nouveau pétrole et les promesses démesurées de croissance
-
-.reduite[.center[![](https://images.pexels.com/photos/70362/oil-monahans-texas-sunset-70362.jpeg?cs=srgb&dl=dawn-drill-evening-70362.jpg&fm=jpg)]]
-
----
-
-### [.red[Les multiples facettes de l'open data :]](https://books.openedition.org/cdf/5005?lang=fr) la modernisation des administrations
-
-Désiloter l'administration et ouvrir l'innovation, collaborer avec la société civile dans l'élaboration et la mise en œuvre des politiques publiques
-
-.reduite[.center[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/D%C3%A9mocratie_Ouverte.png/800px-D%C3%A9mocratie_Ouverte.png]]
+--
+Selon vous, quelle facette est-elle la plus porteuse actuellement ?
 
 ---
 ### Open data : un terme récent
@@ -577,6 +567,14 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 
 
 ---
+### Une multitude de solutions de portails sur le marché
+
+![](img/tableauportails.png)
+
+--
+
+#### Tour d'horizon de ces solutions
+---
 ### Exemple de données ouvertes : la [base SIRENE](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)
 
 .reduite.center[![](img/sirene.png)]
@@ -619,11 +617,16 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 
 ![](./img/dvf.png)
 ---
-### Les valeurs foncières
+### Exemple de données ouvertes : les valeurs foncières
 
 .reduite.center[
 [![](./img/meilleursagents.png)](https://www.meilleursagents.com/prix-immobilier/dvf/aix-en-provence-13100/avenue-saint-jerome-1108044769/)
 ]
+
+---
+### Exemple de données ouvertes : [Santé Publique France sur la Covid-19](https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/)
+
+![](img/dashcovid.png)
 
 ---
 ### Exemple de données ouvertes : [Campagnes photographiques des Monuments Historiques](https://data.culture.gouv.fr/explore/dataset/photographies-serie-monuments-historiques-de-1851-a-1914/images/?refine.nom_reg=BRETAGNE&refine.nom_dept=FINISTERE&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjNjZjMmE1In1dLCJ4QXhpcyI6Im5vbV9yZWciLCJtYXhwb2ludHMiOjUwLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJwaG90b2dyYXBoaWVzLXNlcmllLW1vbnVtZW50cy1oaXN0b3JpcXVlcy1kZS0xODUxLWEtMTkxNCIsIm9wdGlvbnMiOnt9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&location=5,46.50652,2.39891)
@@ -636,6 +639,21 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 Un projet mélant open data et indexation collaborative
 
 ![](img/hautsdeseine.png)
+
+---
+class:inverse, center, middle 
+
+### Pour finir
+
+### Le témoignage d'une archiviste impliquée dans un projet d'open data
+
+[Lien vers la vidéo](https://www.dropbox.com/s/y7wlk4gtjca15bl/Entretien%20Severine%20Menet.mp4?dl=0)
+
+---
+class:inverse, center, middle 
+
+### A la semaine prochaine !
+
 ---
 class: inverse, center, middle
 
