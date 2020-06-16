@@ -590,11 +590,11 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 ### Exemple de données ouvertes : les [accidents de la route](https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/)
 .reduite.center[![](img/accidents.png)]
 ---
-##Les accidents de la route
+### Exemple de données ouvertes : Les accidents de la route
 .reduite.center[![](img/trajetleplussur.png)]
 .footnote[Plus d'accidents sur l'A8 mais surtout plus de véhicules…]
 ---
-### Les accidents de la route
+### Exemple de données ouvertes : les accidents de la route
 .reduite.center[![](img/marsactu.png)]
 .footnote[[Carte par Joël Gombin dans Marsactu](https://joelgombin.github.io/marsactu_accidents/chronique.html)]
 ---
@@ -602,7 +602,7 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 .reduite.center[![](img/aliminfos.png)]
 .footnote[[Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)]
 ---
-### Les inspections des restaurants
+### Exemple de données ouvertes : les inspections des restaurants
 .reduite[.center[![](img/resto.png)]]
 .footnote[[155 établissements dont l'hygiène doit être corrigée de manière urgente ](https://dgal.opendatasoft.com/explore/dataset/export_alimconfiance/table/?disjunctive.filtre&disjunctive.app_libelle_activite_etablissement&disjunctive.ods_type_activite&refine.synthese_eval_sanit=A+corriger+de+mani%C3%A8re+urgente)]
 ---
