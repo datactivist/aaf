@@ -120,6 +120,7 @@ Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la 
 .pull-right[
 
 ** Lundi 21 juin 9h30-12h30 **
+
 * La conduite d’un projet open data et ses facteurs de succès - La place de l’archiviste dans un projet d’open data
 
 * Les bénéfices internes et externes de l’open data
