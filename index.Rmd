@@ -196,7 +196,7 @@ class:middle, center
 class: middle, center
 
 # 1. Des données complètes
-### Toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité
+### Toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité.
 ---
 class: center, middle
 ![](https://datactivist.coop/dataliteracy/img/OPENDATA.jpg)
