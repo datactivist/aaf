@@ -106,7 +106,7 @@ Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la 
 
 .pull-left[
 
-** Mercredi 17 juin 9h30-12h30 **
+** lundi 14 juin 9h30-12h30 **
 
 * Éléments de l’histoire de l’ouverture des données
 
@@ -119,7 +119,7 @@ Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la 
 
 .pull-right[
 
-** Mercredi 24 juin 14h-17h **
+** Lundi 21 juin 9h30-12h30 **
 * La conduite d’un projet open data et ses facteurs de succès - La place de l’archiviste dans un projet d’open data
 
 * Les bénéfices internes et externes de l’open data
