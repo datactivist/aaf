@@ -642,20 +642,22 @@ Un projet mélant open data et indexation collaborative
 ![](img/hautsdeseine.png)
 
 ---
+
 class:inverse, center, middle 
 
-### Pour finir
+### A la semaine prochaine !
+
+---
+class:inverse, center, middle 
+
+### Pour commencer
 
 ### Le témoignage d'une archiviste impliquée dans un projet d'open data
 
 [Lien vers la vidéo](https://www.dropbox.com/s/y7wlk4gtjca15bl/Entretien%20Severine%20Menet.mp4?dl=0)
 
 ---
-class:inverse, center, middle 
 
-### A la semaine prochaine !
-
----
 class: inverse, center, middle
 
 # Le  cycle de l'ouverture des données
@@ -677,7 +679,7 @@ class: inverse, center, middle
 Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collaboration’](https://journals.sagepub.com/doi/abs/10.1177/0306312711413314), _Social Studies of Science_, 41(5)
 
 ---
-### Identifier
+### .red[Identifier]
 
 .pull-left[
 ![](./img/identifier.png)
@@ -720,12 +722,18 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 
 ---
 
-### S'appuyer sur le recensement pour connaitre données ouvrables
+### S'appuyer sur le recensement pour connaître données ouvrables
 
 [![](./img/recen.gif)](https://medium.com/datactivist/qui-a-ouvert-quoi-le-recensement-des-donn%C3%A9es-des-villes-est-maintenant-ouvert-b7f697135c1f)
 
+Il y a 2 grandes familles de données dans les services d'archives :
+
+* Les ![données d'activité du service](https://www.data.gouv.fr/fr/datasets/les-entrees-darchives-aux-archives-nationales/) (registre des entrées, indicateurs d'activité...)
+
+* Les ![données liées aux fonds conservés](https://trouver.datasud.fr/dataset/marseille-photographies/resource/6401b5d4-28ce-467b-8cff-ffa96a1312bc) : description + images
+
 ---
-### Valider
+### .red[Valider]
 
 .pull-left[
 ![](./img/valider.png)
@@ -755,7 +763,7 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 * Des données trop “sensibles” pour être ouvertes : la transparence, un mandat à obtenir 
 
 ---
-### Éditer
+### .red[Éditer]
 
 .pull-left[
 ![](./img/editer.png)
@@ -783,7 +791,7 @@ _data editing_: les opérations par lesquelles les statisticiens traitent et tra
 
 ![](./img/wtfcsv.png)
 ---
-### Standardiser
+### .red[Standardiser]
 
 .pull-left[
 ![](./img/standardiser.png)
@@ -796,55 +804,42 @@ _data editing_: les opérations par lesquelles les statisticiens traitent et tra
 
 * Transformer les données
 
+.red[Bonne nouvelle : il existe désormais un standard pour la publication des registres d'entrées d'archives!]
+
 ]
 
 ---
-### Passage en CSV : bien plus que “enregistrer sous”
 
-.red[**À ne pas faire n°1 :] une première ligne qui ne correspond pas à un champ précis**
+### Pourquoi ce standard?
 
-![](img/reglecsv1.png)
+* De nombreux services avaient publié leurs entrées mais...
 
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-.red[**À ne pas faire n°2 :] mettre en forme les cellules**
-
-![](img/reglecsv2.png)
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-.red[**À ne pas faire n°3 :]insérer deux données de nature différente (ou deux objets) sur une même ligne**
-
-![](img/reglecsv3.png)
+![](img/standard.png)
 
 ---
-### Passage en CSV : bien plus que “enregistrer sous”
 
-.red[**À ne pas faire n°4 :] fusionner des cellules**
+### Besoin d'un standard!
 
-![](img/reglecsv4.png)
+* Le standard de données fournit un cadre commun pour l'ensemble des structures souhaitant diffuser leurs données
+
+* Le standard a été réalisé par le SIAF et l'AAF, qui a mobilisé le réseau sur le sujet
+
+* Il va permettre de structurer les données avant de les publier sur une plateforme open data ou le site internet d'une institution
+
+Le schéma sur le [site de l'AAF]( https://www.archivistes.org/Ressources-Registres-des-entrees) et sur le site [schema.data.gouv](https://schema.data.gouv.fr/Archivistes75/registre_entrees/latest.html)
 
 ---
-### Passage en CSV : bien plus que “enregistrer sous”
 
-.red[**À ne pas faire n°5 :] séparer les tableaux dans des onglets différents ou dans une même feuille**
+### Les limites du standard
 
-![](img/reglecsv5.png)
+* **Il ne concerne que les registres d'entrées**, les services d'archives gèrent et produisent de nombreuses autres données
+
+* **Il peut nécessiter un certain travail de préparation et de nettoyage** des fichiers. Un travail est en cours avec les éditeurs de SIA pour qu'il soit implémenté dans les logiciels archives
+
+* **Il n'est pas obligatoire**, les services doivent donc faire la démarche de l'utiliser
+
 ---
-### Passage en CSV : bien plus que “enregistrer sous”
-
-.red[**À ne pas faire n°6 :] afficher des totaux ou des informations génériques, ou des données qui n’ont pas de lien avec ce jeu de données précis**
-
-![](img/reglecsv6.png)
----
-### Passage en CSV : bien plus que “enregistrer sous”
-
-.red[**À faire!**] 
-
-![](img/reglecsv7.png)
----
-### Publier
+### .red[Publier]
 
 .pull-left[
 ![](./img/publier.png)
@@ -862,11 +857,11 @@ _data editing_: les opérations par lesquelles les statisticiens traitent et tra
 ### [Datasheet for Datasets](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) : un modèle de documentation des données
 
 .reduite.center[
-![](./img/datasheet.png)
-]
+![](./img/datasheet.png)]
+
 
 ---
-### Mettre à jour
+### .red[Mettre à jour]
 
 .pull-left[
 ![](./img/update.png)
@@ -884,36 +879,46 @@ _data editing_: les opérations par lesquelles les statisticiens traitent et tra
 
 ---
 
-### Obtenir un soutien au plus haut niveau
+### Quelques points clés
 
-![](img/matricefreinmoteur.png)
+* **Obtenir un soutien au plus haut niveau**
 
+.reduite.center[![](img/matricefreinmoteur.png)]
 
----
-
-### Configurer l’organisation pour l’ouverture 
-
-
-![](img/checklist.png)
-
-.right[
-.caption[
-Source : [OpenDataLab Occitanie](http://www.opendatalab.fr/laboratoire/le-kit-collectivites)
-]
-]
----
-
-### Faciliter la découverte et l’utilisation des données
+* **Faciliter la découverte et l’utilisation des données**
 
 ["La déception en 4 actes"](https://twitter.com/JulesGrandin/status/935838409809125376)
 
-![](img/personna.png)
+---
+
+### Les 10 commandements 
+
+![](img/10commandements.png)
 
 ---
 
-### Rester à l'écoute et interagir avec les usagers 
+### Mais que peut-on ouvrir?
 
-![](img/10commandements.png)
+* [Les données d'activités du service](https://data.culture.gouv.fr/explore/dataset/activite-des-services-darchives-en-france/table/) 
+
+* [Les données produites concernant les fonds](https://www.data.gouv.fr/fr/datasets/les-denaturalises-de-vichy/)
+
+---
+
+### De l'open data à l'open content
+
+* L'open content c'est **l'ouverture des contenus**
+
+![](img/OpenContent.png)
+
+---
+
+### Offrir la possibilité de s'amuser
+
+[Carte à partir des images en open data (et avec du contenu ouvert!) des Archives Municipales des Marseille](https://umap.openstreetmap.fr/fr/map/carte-des-photos-en-open-data-des-am-de-marseille_628303#13/43.2903/5.3788)
+
+![](img/Marseille_carte.png)
+
 ---
 ### Les bénéfices de l'open data
 
@@ -928,6 +933,61 @@ En petits groupes, analysez les [données brutes](https://docs.google.com/spread
 * La production d'effets négatifs ou d'impacts contre-productifs
 ]
 ---
+
+### Annexe méthodologique : Passage en CSV : bien plus que “enregistrer sous”
+
+.red[**À ne pas faire n°1 :] une première ligne qui ne correspond pas à un champ précis**
+
+![](img/reglecsv1.png)
+
+---
+
+###  Annexe méthodologique : Passage en CSV : bien plus que “enregistrer sous”
+
+.red[**À ne pas faire n°2 :] mettre en forme les cellules**
+
+![](img/reglecsv2.png)
+
+---
+
+###  Annexe méthodologique : Passage en CSV : bien plus que “enregistrer sous”
+
+.red[**À ne pas faire n°3 :]insérer deux données de nature différente (ou deux objets) sur une même ligne**
+
+![](img/reglecsv3.png)
+---
+###  Annexe méthodologique : Passage en CSV : bien plus que “enregistrer sous”
+
+.red[**À ne pas faire n°4 :] fusionner des cellules**
+
+![](img/reglecsv4.png)
+
+---
+
+###  Annexe méthodologique : Passage en CSV : bien plus que “enregistrer sous”
+
+.red[**À ne pas faire n°5 :] séparer les tableaux dans des onglets différents ou dans une même feuille**
+
+![](img/reglecsv5.png)
+
+---
+
+###  Annexe méthodologique : Passage en CSV : bien plus que “enregistrer sous”
+
+.red[**À ne pas faire n°6 :] afficher des totaux ou des informations génériques, ou des données qui n’ont pas de lien avec ce jeu de données précis**
+
+![](img/reglecsv6.png)
+
+---
+
+###  Annexe méthodologique : Passage en CSV : bien plus que “enregistrer sous”
+
+.red[**À faire!**] 
+
+![](img/reglecsv7.png)
+
+---
+
 class: inverse, center, middle
 
 # Merci !
