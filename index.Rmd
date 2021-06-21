@@ -853,7 +853,7 @@ Le schéma sur le [site de l'AAF]( https://www.archivistes.org/Ressources-Regist
 * Documenter les métadonnées
 ]
 
-Des métadonnées pour éviter d'avoir un [jeu de données mal documenté](https://www.data.gouv.fr/fr/datasets/c2020-sbep-028/#_).
+Les métadonnées permettent d'éviter d'avoir un [jeu de données mal documenté](https://www.data.gouv.fr/fr/datasets/c2020-sbep-028/#_).
 
 
 ---
