@@ -853,6 +853,9 @@ Le schéma sur le [site de l'AAF]( https://www.archivistes.org/Ressources-Regist
 * Documenter les métadonnées
 ]
 
+Des métadonnées pour éviter d'avoir un [jeu de données mal documenté](https://www.data.gouv.fr/fr/datasets/c2020-sbep-028/#_).
+
+
 ---
 ### [Datasheet for Datasets](https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400) : un modèle de documentation des données
 
@@ -902,6 +905,8 @@ Le schéma sur le [site de l'AAF]( https://www.archivistes.org/Ressources-Regist
 * [Les données d'activités du service](https://data.culture.gouv.fr/explore/dataset/activite-des-services-darchives-en-france/table/) 
 
 * [Les données produites concernant les fonds](https://www.data.gouv.fr/fr/datasets/les-denaturalises-de-vichy/)
+
+* Les données produites dans le cadre de travaux d'indexation collaborative : [Archives Municipales d'Orléans](https://archives.orleans-metropole.fr/annotation-collaborative/chercher-dans-les-annotations/actes-dengagement-militaire?arko_default_603f6a6b6d272--ficheFocus=) ou [SHD](https://www.memoiredeshommes.sga.defense.gouv.fr/fr/article.php?laref=1380&titre=telechargement)
 
 ---
 
