@@ -58,7 +58,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 - Une approche issue de la recherche : voir notamment **https://datactivist.coop/these**. 
 
-- Nous animons la communauté [#TeamOpenData](https://teamopendata.org).
+- Nous animons également la communauté [#TeamOpenData](https://teamopendata.org).
 
 ---
 ## Nos activités
@@ -483,6 +483,7 @@ class: inverse, center, middle
 
 ---
 ### La réutilisation : un parcours fait de frictions et de déceptions
+
 .pull-left[
 [![](img/users.png)](https://thereboot.github.io/moti-personas/)
 ]
