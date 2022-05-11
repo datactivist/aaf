@@ -662,7 +662,27 @@ class: inverse, center, middle
 
 ### C'est quoi un schéma de données ?
 
+---
 
+### Les objectifs d'un standard de données
+
+* Convertir les données dans un format ouvert (spécifications techniques publiques et sans restriction d'accès ni de mise en œuvre) et lisible par les machines
+
+* Adopter des spécifications partagées : GTFS, DECP, IATI, OCDS, socle commun des données locales…
+
+* Transformer les données
+
+.red[Bonne nouvelle : il existe désormais un standard pour la publication des registres d'entrées d'archives!]
+
+]
+
+---
+
+### Pourquoi ce standard?
+
+* De nombreux services avaient publié leurs entrées mais...
+
+![](img/standard.png)
 
 ---
 
