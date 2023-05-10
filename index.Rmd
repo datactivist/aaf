@@ -2,7 +2,7 @@
 title: "Comprendre et mettre en œuvre l'open data"
 subtitle: "Formation AAF"
 author: "Samuel Goëta, Anne-Laure Donzel, Datactivist"
-date: "`r format(Sys.Date(), '%d %b %Y')`"
+date: "11 mai 2023"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -106,7 +106,7 @@ Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la 
 
 .pull-left[
 
-** lundi 02 mai**
+** jeudi 11 mai**
 
 * Éléments de l’histoire de l’ouverture des données
 
@@ -119,7 +119,7 @@ Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la 
 
 .pull-right[
 
-** Lundi 11 mai **
+** mercredi 17 mai **
 
 * Préparer l'ouverture de ses (premières) données : le registre des entrées !
 
@@ -375,15 +375,12 @@ Hors de ces cas, il faut .red[**[anonymiser les données](https://github.com/SGM
 
 Alors qu'aux Etats-Unis les données publiques sont placées dans le domaine public depuis les années 70, la question de la réutilisation des données publiques a émergé en France et en Europe dans les années 1990 avec le développement d'Internet facilitant la diffusion des données publiques et le développement de nouveaux services au public. Quelques jalons :
 
-```{r echo=FALSE}
-library(timevis)
-data <- data.frame(
-  id      = 1:7,
-  content = c("Loi CADA","Directive PSI", "Directive INSPIRE", "Révision de la directive PSI", "Loi Notre", "Loi Valter", "Loi pour une République Numérique"),
-  start   = c("1978-07-17","2003-11-17", "2007-03-14","2013-06-13","2015-08-07","2015-12-28","2016-10-07")
-)
-timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
-```
+* **17/07/1978** : Loi CADA
+* **17/11/2003** : 1ère Directive Public Sector Information (PSI), elle est modifiée en 2013 et en 2019
+* **14/03/2007** : Directive INSPIRE
+* **28/12/2015** : Loi relative à la gratuité et aux modalités de la réutilisation des informations du secteur public, dite "Loi Valter"
+* **07/10/2016** : Loi pour une République Numérique, dite "Loi Lemaire"
+
 ---
 
 ### Le droit de réutilisation en archives
@@ -514,13 +511,10 @@ class: inverse, center, middle
 ]
 ---
 ### Des données bien cachées
-.pull-left[
-![](https://index.okfn.org/images/Datagapsclean.jpg)
-]
-.pull-right[
+
 "La découvrabilité des données est un défi majeur. Nous avons des portails et des registres de données, mais les organismes gouvernementaux qui relèvent d'un seul gouvernement national publient toujours les données de différentes façons et à différents endroits (...).
 
-**La découvrabilité des données est une condition préalable pour que les données ouvertes réalisent leur potentiel et, actuellement, la plupart des données sont très difficiles à trouver**."]
+**La découvrabilité des données est une condition préalable pour que les données ouvertes réalisent leur potentiel et, actuellement, la plupart des données sont très difficiles à trouver**."
 
 
 .footnote[https://index.okfn.org/insights/]
@@ -547,8 +541,12 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 
 ### Le développement de l'open data en France
 
-.reduite.center[
+.pull-left[
 [![](./img/carto_obs.png)](https://umap.openstreetmap.fr/fr/map/observatoire-open-data-des-territoires_239529#6/45.806/5.603)
+]
+
+.pull-right[
+Carte de l'observatoire open data des territoires
 ]
 
 ---
@@ -568,9 +566,6 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 
 ![](img/tableauportails.png)
 
---
-
-#### Tour d'horizon de ces solutions
 ---
 ### Exemple de données ouvertes : la [base SIRENE](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)
 
@@ -595,14 +590,7 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 .reduite.center[![](img/marsactu.png)]
 .footnote[[Carte par Joël Gombin dans Marsactu](https://joelgombin.github.io/marsactu_accidents/chronique.html)]
 ---
-### Exemple de données ouvertes : les [inspections des restaurants](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)
-.reduite.center[![](img/aliminfos.png)]
-.footnote[[Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)]
----
-### Exemple de données ouvertes : les inspections des restaurants
-.reduite[.center[![](img/resto.png)]]
-.footnote[[155 établissements dont l'hygiène doit être corrigée de manière urgente ](https://dgal.opendatasoft.com/explore/dataset/export_alimconfiance/table/?disjunctive.filtre&disjunctive.app_libelle_activite_etablissement&disjunctive.ods_type_activite&refine.synthese_eval_sanit=A+corriger+de+mani%C3%A8re+urgente)]
----
+
 ### Exemple de données ouvertes : le [répertoire national des élus](https://www.data.gouv.fr/fr/datasets/donnees-du-repertoire-national-des-elus/)
 
 .reduite.center[
@@ -620,10 +608,6 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 [![](./img/meilleursagents.png)](https://www.meilleursagents.com/prix-immobilier/dvf/aix-en-provence-13100/avenue-saint-jerome-1108044769/)
 ]
 
----
-### Exemple de données ouvertes : [Santé Publique France sur la Covid-19](https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/)
-
-![](img/dashcovid.png)
 
 ---
 ### Exemple de données ouvertes : [Campagnes photographiques des Monuments Historiques](https://data.culture.gouv.fr/explore/dataset/photographies-serie-monuments-historiques-de-1851-a-1914/images/?refine.nom_reg=BRETAGNE&refine.nom_dept=FINISTERE&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjNjZjMmE1In1dLCJ4QXhpcyI6Im5vbV9yZWciLCJtYXhwb2ludHMiOjUwLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJwaG90b2dyYXBoaWVzLXNlcmllLW1vbnVtZW50cy1oaXN0b3JpcXVlcy1kZS0xODUxLWEtMTkxNCIsIm9wdGlvbnMiOnt9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&location=5,46.50652,2.39891)
@@ -636,6 +620,32 @@ Ce jeu de données contient plus de 6000 marchés publics attribués par l'Etat.
 Un projet mélant open data et indexation collaborative
 
 ![](img/hautsdeseine.png)
+---
+
+### Le démarche des [Archives Nationales](https://www.archives-nationales.culture.gouv.fr/wikimedia)
+
+De la données d'usage aux [données historiques](https://data.culture.gouv.fr/explore/?q=archives+nationales&disjunctive.theme&disjunctive.keyword&sort=modified)
+
+![](img/AN_jeudonnée.png)
+
+---
+
+### Label Culture Libre
+
+Un label pour valoriser l'ouverture et à la diffusion des connaissances :  Wikimedia France a lancer en 2023 la première labellisation d'institutions culturelles menant une démarche d'ouverture de leurs données et contenus.
+
+![](img/groupe_culture_libre.jpg)
+
+---
+
+### La culture #OpenGLAM dans le monde
+
+L'[open GLAM survey](https://douglasmccarthy.com/projects/open-glam-survey/) du Dr Andrea Wallace et de Douglas McCarthy
+
+[Lien vers la requête](https://w.wiki/6gkG)
+
+![](img/OpenGLAMSurvey.png)
+
 
 ---
 
@@ -660,10 +670,6 @@ class: inverse, center, middle
 
 ---
 
-### C'est quoi un schéma de données ?
-
----
-
 ### Les objectifs d'un standard de données
 
 * Convertir les données dans un format ouvert (spécifications techniques publiques et sans restriction d'accès ni de mise en œuvre) et lisible par les machines
@@ -674,7 +680,7 @@ class: inverse, center, middle
 
 .red[Bonne nouvelle : il existe désormais un standard pour la publication des registres d'entrées d'archives!]
 
-]
+
 
 ---
 
@@ -907,8 +913,8 @@ Des premières publications !
 
 Sur le site du SIAF :
 
-* [](https://francearchives.fr/fr/article/293123114)
-* [](https://francearchives.fr/fr/actualite/547884351)
+* [Article sur le schéma](https://francearchives.fr/fr/article/293123114)
+* [Billet d'actualité](https://francearchives.fr/fr/actualite/547884351)
 
 Sur le site de l’AAF :
 
@@ -918,7 +924,7 @@ Sur le site de l’AAF :
 
 **Schema.data.gouv.fr**
 
-* [](https://schema.data.gouv.fr/Archivistes75/registre_entrees/)
+* [Le schéma sur schema.data.gouv](https://schema.data.gouv.fr/Archivistes75/registre_entrees/)
 
 ---
 
