@@ -929,6 +929,8 @@ class: inverse, center, middle
 
 # A vous de jouer !
 
+https://docs.google.com/document/d/1pfAmgWTq-o4L-dDEWxHd9Rm4r-rzqXvkPWN_-5fvscY/edit?usp=sharing
+
 ---
 
 class: inverse, center, middle
